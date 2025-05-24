@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Elastic Beanstalk!");
+  res.send("Hello from Elastic Beanstalk! + deploy");
 });
 
 app.listen(port, () => {
