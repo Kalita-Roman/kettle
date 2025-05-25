@@ -14,6 +14,6 @@ app.get("/*", (req, res) => {
   res.json({ message: "The rest" });
 });
 
-app.listen(80, () => {
-  console.log(`Example app listening on port ${port}`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
